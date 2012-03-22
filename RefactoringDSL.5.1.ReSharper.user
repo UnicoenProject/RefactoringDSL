@@ -9,19 +9,25 @@
   <RecentFiles>
     <RecentFiles>
       <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:EncapsulateCollection.cs" caret="0" fromTop="0" />
-      <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:EncapsulateCollectionHelper.cs" caret="647" fromTop="0" />
       <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:EncapsulateField.cs" caret="1919" fromTop="6" />
       <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:EncapsulateFieldHelper.cs" caret="6288" fromTop="22" />
       <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:IRefactorable.cs" caret="798" fromTop="8" />
       <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:packages.config" caret="0" fromTop="0" />
-      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateCollectionHelperTest.cs" caret="3388" fromTop="0" />
-      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateCollectionTest.cs" caret="781" fromTop="8" />
-      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateFieldTest.cs" caret="1419" fromTop="25" />
+      <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:EncapsulateCollectionHelper.cs" caret="0" fromTop="0" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:FindUtilTest.cs" caret="0" fromTop="0" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateCollectionHelperTest.cs" caret="894" fromTop="0" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateCollectionTest.cs" caret="1578" fromTop="0" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateFieldTest.cs" caret="0" fromTop="0" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateFieldTestForCS.cs" caret="373" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
       <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:EncapsulateField.cs" caret="2264" fromTop="16" />
       <File id="B47D51ED-5D1F-45E2-B88D-452332AD58EA/f:EncapsulateField.cs" caret="1919" fromTop="6" />
-      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateFieldTest.cs" caret="983" fromTop="16" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateCollectionTest.cs" caret="807" fromTop="8" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateCollectionTest.cs" caret="1031" fromTop="16" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateFieldTest.cs" caret="1069" fromTop="17" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateFieldTest.cs" caret="781" fromTop="8" />
+      <File id="B6127281-41EC-4E7F-ACE0-3C889B616CD4/f:EncapsulateFieldTestForCS.cs" caret="246" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

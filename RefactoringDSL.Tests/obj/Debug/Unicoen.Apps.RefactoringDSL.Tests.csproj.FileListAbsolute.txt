@@ -1,0 +1,5 @@
+C:\Users\tomoyuki\Desktop\Projects\RefactoringDSL\RefactoringDSL.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tomoyuki\Desktop\Projects\RefactoringDSL\bin\Debug\Unicoen.Apps.RefactoringDSL.Tests.dll
+C:\Users\tomoyuki\Desktop\Projects\RefactoringDSL\bin\Debug\Unicoen.Apps.RefactoringDSL.Tests.pdb
+C:\Users\tomoyuki\Desktop\Projects\RefactoringDSL\RefactoringDSL.Tests\obj\Debug\Unicoen.Apps.RefactoringDSL.Tests.dll
+C:\Users\tomoyuki\Desktop\Projects\RefactoringDSL\RefactoringDSL.Tests\obj\Debug\Unicoen.Apps.RefactoringDSL.Tests.pdb

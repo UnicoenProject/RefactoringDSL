@@ -6,7 +6,7 @@ using System.Text;
 using NUnit.Framework;
 using Unicoen.Languages.Java;
 using Unicoen.Model;
-using Unicoen.Tests;
+using Unicoen.TestUtils;
 
 namespace Unicoen.Apps.RefactoringDSL.Sandbox {
 	public class CollisionDetectorTest

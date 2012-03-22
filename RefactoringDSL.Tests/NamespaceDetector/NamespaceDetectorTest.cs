@@ -25,7 +25,7 @@ using Unicoen.Apps.RefactoringDSL.NamespaceDetector;
 using Unicoen.Apps.RefactoringDSL.Util;
 using Unicoen.Languages.Java;
 using Unicoen.Model;
-using Unicoen.Tests;
+using Unicoen.TestUtils;
 
 namespace Unicoen.Apps.RefactoringDSL.Tests.NamespaceDetector {
     public class NamespaceDetectorTest {

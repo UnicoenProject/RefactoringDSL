@@ -7,7 +7,7 @@ using NUnit.Framework;
 using Unicoen.Languages.CSharp;
 using Unicoen.Languages.Java;
 using Unicoen.Model;
-using Unicoen.Tests;
+using Unicoen.TestUtils;
 
 namespace Unicoen.Apps.RefactoringDSL.Tests
 {
