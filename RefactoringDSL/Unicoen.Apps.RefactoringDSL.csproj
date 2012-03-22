@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B47D51ED-5D1F-45E2-B88D-452332AD58EA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Unicoen.Apps.RefactoringDSL</RootNamespace>
+    <AssemblyName>Unicoen.Apps.RefactoringDSL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Core">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.C">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.C.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.CSharp">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.Java">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.Java.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.JavaScript">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.JavaScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.Lua">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.Lua.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.Python2">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.Python2.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.Python3">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.Python3.dll</HintPath>
+    </Reference>
+    <Reference Include="Code2Xml.Languages.Ruby18">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Code2Xml.Languages.Ruby18.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory.CSharp">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\ICSharpCode.NRefactory.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory.VB">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\ICSharpCode.NRefactory.VB.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\IronRuby.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby.Libraries">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\IronRuby.Libraries.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby.Libraries.Yaml">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\IronRuby.Libraries.Yaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Dynamic">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Paraiba">
+      <HintPath>..\packages\Paraiba.1.0.1.19\lib\net40\Paraiba.dll</HintPath>
+    </Reference>
+    <Reference Include="Paraiba.Experiment">
+      <HintPath>..\packages\Code2Xml.1.1.1.28\lib\Paraiba.Experiment.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Unicoen.Core">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unicoen.Languages.C">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Languages.C.dll</HintPath>
+    </Reference>
+    <Reference Include="Unicoen.Languages.CSharp">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Languages.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Unicoen.Languages.Java">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Languages.Java.dll</HintPath>
+    </Reference>
+    <Reference Include="Unicoen.Languages.JavaScript">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Languages.JavaScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Unicoen.Languages.Python2">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Languages.Python2.dll</HintPath>
+    </Reference>
+    <Reference Include="Unicoen.Languages.Python3">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Languages.Python3.dll</HintPath>
+    </Reference>
+    <Reference Include="Unicoen.Languages.Ruby18">
+      <HintPath>..\packages\UNICOEN.1.0.3.28\lib\Unicoen.Languages.Ruby18.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EncapsulateCollection.cs" />
+    <Compile Include="EncapsulateCollectionHelper.cs" />
+    <Compile Include="EncapsulateField.cs" />
+    <Compile Include="EncapsulateFieldHelper.cs" />
+    <Compile Include="IRefactorable.cs" />
+    <Compile Include="Java\EncapsulateCollectionHelperForJava.cs" />
+    <Compile Include="NamespaceDetector\Application.cs" />
+    <Compile Include="NamespaceDetector\Detector.cs" />
+    <Compile Include="NamespaceDetector\DetectorHelper.cs" />
+    <Compile Include="NamespaceDetector\Namespace.cs" />
+    <Compile Include="NamespaceDetector\NamespaceType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sandbox\CollisionDetector.cs" />
+    <Compile Include="Sandbox\CollisionDetectorTest.cs" />
+    <Compile Include="Util\FindUtil.cs" />
+    <Compile Include="Util\StringUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

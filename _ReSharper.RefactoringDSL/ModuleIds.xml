@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="B47D51ED-5D1F-45E2-B88D-452332AD58EA" ModuleId="Unicoen.Apps.RefactoringDSL" />
+  <Module PersistentId="B6127281-41EC-4E7F-ACE0-3C889B616CD4" ModuleId="Unicoen.Apps.RefactoringDSL.Tests" />
+</Modules>
